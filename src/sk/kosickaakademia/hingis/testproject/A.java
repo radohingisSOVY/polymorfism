@@ -1,4 +1,4 @@
 package sk.kosickaakademia.hingis.testproject;
 
-public class A {
+public class A implements I1 {
 }
