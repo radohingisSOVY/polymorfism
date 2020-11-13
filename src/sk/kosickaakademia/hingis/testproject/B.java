@@ -10,4 +10,13 @@ public class B extends A implements I2 {
     public void print(){
         System.out.println("Class B: print();");
     }
+
+    @Override
+    public void wildAnimal() {
+        System.out.println("Fox");
+    }
+    public void programmingLanguage(){
+        System.out.println("Class B loves Java");
+    }
 }
+
