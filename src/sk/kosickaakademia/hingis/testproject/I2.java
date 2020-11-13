@@ -1,4 +1,4 @@
 package sk.kosickaakademia.hingis.testproject;
 
-public interface I2 {
+public interface I2 extends I0 {
 }

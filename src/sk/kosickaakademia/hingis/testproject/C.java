@@ -1,4 +1,4 @@
 package sk.kosickaakademia.hingis.testproject;
 
-public class C {
+public class C extends B{
 }
