@@ -13,6 +13,10 @@ public class A implements I1 {
         this();
         System.out.println("I'm constructor A():"+text);
     }
+    public A(String text, String name){
+        this(text);
+        System.out.println("I'm constructor A():"+text+" and my name is"+name);
+    }
 
     public void print(){
         System.out.println("Class A: print();");
@@ -21,6 +25,11 @@ public class A implements I1 {
     @Override
     public void animal() {
         System.out.println("Dog");
+    }
+
+    public void play(){
+        M m = new M();
+        System.out.println("A play");
     }
 
 }

@@ -22,7 +22,30 @@ public class Main {
         ((B)p5).print(); // vypise print C
 
         //A p6 = new A();//zavola neparametricky konstruktor
-        A p7 = new A("blablabla"); //zavola parametricky konstruktor
+        A p7 = new A("blablabla", "Martin"); //zavola parametricky konstruktor
+
+        System.out.println();
+
+        I2 p8 = new C();
+        ((B)p4).programmingLanguage();
+        ((A)p3).animal();
+
+        System.out.println();
+
+        A p9 = new B();
+        ((B)p9).drink();
+
+        System.out.println();
+
+        A p10 = new C();
+        ((C)p10).print();
+
+        System.out.println();
+
+        M p11 = new M();
+        p11.play(p7);
+        p10.play();
+
 
 
 
